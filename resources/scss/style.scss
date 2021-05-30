@@ -1,0 +1,14 @@
+//FONTS
+@import 'fonts';
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts'; 
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+//RESET
+@import '1-abstracts/reset';
+//BASE
+@import '2-base/base';
+//LAYOUT
+@import '4-layout/layout';
+//PAGE

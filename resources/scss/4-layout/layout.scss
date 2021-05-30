@@ -1,0 +1,11 @@
+@use '../1-abstracts/breakpoint.scss';
+@use '~bootstrap/scss/bootstrap-grid.scss';
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@include breakpoint.minPoint(xl) {
+    .container {
+        max-width: 1140px;
+    }
+}

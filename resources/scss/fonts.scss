@@ -1,0 +1,13 @@
+@use "1-abstracts/fontFace";
+@include fontFace.font("Mulish", "Mulish-Bold", "700", "normal");
+@include fontFace.font("Mulish", "Mulish-Black", "900", "normal");
+@include fontFace.font("Mulish", "Mulish-ExtraBold", "800", "normal");
+@include fontFace.font("Mulish", "Mulish-Light", "300", "normal");
+@include fontFace.font("Mulish", "Mulish-Medium", "500", "normal");
+@include fontFace.font("Mulish", "Mulish-Regular", "400", "normal");
+@include fontFace.font("Oswald", "Oswald-Bold", "700", "normal");
+@include fontFace.font("Mulish", "Mulish-SemiBold", "600", "normal");
+@include fontFace.font("Oswald", "Oswald-Light", "300", "normal");
+@include fontFace.font("Oswald", "Oswald-Medium", "500", "normal");
+@include fontFace.font("Oswald", "Oswald-Regular", "400", "normal");
+@include fontFace.font("Oswald", "Oswald-SemiBold", "600", "normal");
